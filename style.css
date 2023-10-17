@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+.header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 1080px;
+}
+
+
+.header img{
+    position: absolute;
+    max-width: 100%;
+}
+
+.logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+}
+.top-right{
+    display: flex;
+    align-items: center;
+
+}
+.top-right a{
+    color: snow;
+}
+
+.top-right a:hover{
+    color: #E69C00;
+}
+
+.nav-link{
+    color: snow;
+    transition: all 0.4s;
+}
+
+.nav-link:hover{
+    color: #E69C00;
+}
+
+.order-online-link{
+    text-decoration: none;
+    background-color: #E69C00;
+    padding: 10px;
+    color: snow;
+    font-weight: 400;
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+
+}
+.carousel-container{
+    height: 100%;
+    padding: 15% 0 25% 0;
+    
+}
+
+.carousel-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.carousel-indicators{
+    position: relative;
+    justify-content: flex-start;
+}
+
+.offer-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: rgb(29, 27, 27);
+    margin-top: 250px;
+    border-radius: 5px;
+    padding: 20px 15px;
+    color: snow;
+}
+
+.offer-box:hover > .offer-box-image img{
+    scale: 1.1;
+}
+
+.offer-box-image{
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+    border: 5px solid #E69C00;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.offer-box-image img{
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.offer-box-detail{
+    
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.offer-box-detail h5{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.offer-box-detail h6{
+    font-family: 'Dancing Script', cursive;
+}
+
+.offer-box-detail h6 span{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.menu-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.menu-title h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.menu-filters{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-filters li{
+    padding: 10px 25px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu-filters li.active{
+    background-color: #E69C00;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.card{
+    background-color: #F1F2F3;
+    margin-top: 25px;
+}
+
+.card:hover > .card-image img{
+    scale: 1.2;
+}
+
+.card-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 50px;
+
+}
+
+.card-image img{
+    width: 50%;
+    transition: all 0.4s;
+}
+
+.card-footer{
+    background-color:#222831;
+    color: snow;
+}
+
+.card-footer p{
+    margin-bottom: 30px;
+}
+
+.card-price-order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.card-order-link{
+    background-color: #E69C00;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.menu-footer{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.a-button{
+    text-decoration: none;
+    background-color: #FFBE33;
+    padding: 15px 45px;
+    color: snow;
+    font-size: 1.1rem;
+    border-radius: 35px;
+    transition: all 0.4s;
+}
+
+.a-button:hover{
+    background-color: #E69C00;
+}
+.row{
+    align-items: center;
+}
+.about-section{
+    background-color: #222831;
+    padding: 100px 0 100px 0;
+}
+
+.about-image{
+    display: flex;
+    justify-content: center;
+    padding: 0 50px 0 50px;
+}
+
+.about-image img{
+    width: 100%;
+}
+
+.about-detail{
+    color: snow;
+}
+
+.about-detail-title{
+    font-family: 'Dancing Script', cursive;
+}
+
+.about-detail-title h2{
+    font-size: 3rem;
+}
+.about-detail p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    padding: 20px 0 40px 0;
+}
+
+.book-section, .client-section{
+    margin: 100px 0px;
+}
+
+.book-section-title, .client-section-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.book-section-title h2, .client-section-title h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.form-control{
+    margin: 5px 0 20px 0;
+}
+
+.book-map{
+    width: 100%;
+    height: 345px;
+
+    overflow: hidden;
+}
+
+.book-map iframe{
+    width: 100%;
+    height: 78%;
+    border-radius: 10px;
+}
+
+.client-box-detail{
+    display: flex;
+    flex-direction: column;
+    background-color: #222831;
+    padding: 25px;
+    width: 95%;
+    border-radius: 5px;
+    height: 220px;
+}
+
+.client-box p, h4, h6{
+    font-family: 'Open Sans', sans-serif;
+    color: snow;
+    margin-top: 5px;
+}
+
+.client-image{
+    display: flex;
+    align-items: center;
+    width: 120px;
+    margin-top: 25px;
+
+}
+
+.client-image img{
+    border-radius: 100%;
+    border: 5px solid #ffbe33;
+    overflow: hidden;
+}
+
+.client-section .carousel-container{
+    padding: 2% 0 5% 0;
+}
+
+.footer-section{
+    background-color: #222831;
+}
+
+.footer-section .row{
+    align-items: flex-start;
+}
+
+.footer-section .container{
+    padding: 100px 0 50px 0;
+}
+
+.footer-section .col-md-4{
+    text-align: center;
+}
+
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.footer-contact-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contact-links a{
+    text-decoration: none;
+    color: snow;
+    padding: 10px 0 0 0;
+
+}
+
+.footer-contact h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.footer-contact p{
+    font-family: 'Open Sans', sans-serif;
+    color: snow;
+    padding: 10px 0 0 0;
+}
+
+.footer_social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer_social a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3.5px;
+    border-radius: 100%;
+    padding: 0 15px;
+    background-color: snow;
+    width: 30px;
+    height: 30px;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: snow;
+    margin: 60px 0 10px 0;
+}
+
+.footer-info a{
+    color: snow;
+}
